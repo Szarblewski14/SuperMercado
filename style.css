@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background: white;
+    font-family: 'poppins', sans-serif;
+    color: black;
+}
+
+/*titulo mercado cabeçalho*/
+img {
+    width: 450px;
+}
+#foto img{
+   margin-left: 200px;
+   margin-top: -270px;
+   
+}
+
+/*faixa do cabeçalho*/
+.background-red {
+    background: #ea0000;
+}
+.background-red p a{
+   margin-left: 1300px;
+   color: white;
+   text-decoration: none;
+}
+p   a:hover{
+    color: black;
+}
+
+/*lista cabeçalho*/
+ ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px;
+}
+ nav {
+   margin-left: 660px;
+}
+
+/*borda transparente*/
+header{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .1);
+    height: 120px;
+}
+
+/*estilização da lista*/
+li:hover{
+    color: #ea0000;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/*=====================================================*/
+
+/*Main projeto caixa container*/
+.carrossel{
+   overflow: hidden;
+   height: 500px;
+   width: 850px;
+   margin: auto;
+   margin-top: 40px;
+}
+.container{
+    display: flex;
+    transition: transform 1s ease-in-out;
+    transform: translateX(0);
+}
+.container img{
+    object-fit: cover;
+    height: 500px;
+    width: 850px;
+}
+
+/*Main continuação*/
+.novidades{ 
+    text-align: center;
+    margin-top: 100px;
+}
+.novidades p{
+    font-size: 10px;
+}
+.novidades img{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    margin-top: -115px;
+    left: 400px;
+}
+.novidades a{
+    text-decoration: none;
+}
+.novidades button{
+    background: red;
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    margin-top: -40px;
+    right: 400px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.novidades button p a{
+    color: white;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+}   
+
+/*Parte final da main*/
+.main-final{
+   padding: 160px;
+}
+.main-final article img{
+    height: 300px;
+    width: 1400px;
+    margin-left: 90px;
+}
+
+/*=======================================*/
+
+/*footer projeto*/
+#caixa{
+    height: 500px;
+    background:  rgb(26, 22, 22);
+}
+
+#caixa img{
+    margin-top: -150px;
+    margin-left: 680px;
+}
+#caixa h3{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -90px;
+    color: white;
+}
+#caixa a {
+    text-decoration: none;
+    color: red;
+}
+
+
+/*Footer icones*/
+#icons {
+    position: absolute;
+    display: flex;
+    margin-left: 790px;
+    margin-top: -100px;
+    font-size: 24px;
+    justify-content: center;
+}
+#icons a{
+    display: flex;
+    padding: 25px;
+    transition: 0.3s;
+    color: white;
+}
+#icons a :hover{
+    color: red;
+    transition: 0.2s;
+}
+/*logo whatsapp*/
+.ionicons {
+    display: flex;
+    margin-top: -280px;
+    margin-left: 1100px;
+    font-size: 35px;
+    color: white;
+}
+.ionicons p {
+    display: flex;
+    font-size: 25px;
+    padding: 0px 20px;
+}
+/*logo carta*/
+.carta{
+    display: flex;
+    margin-left: 1100px;
+    margin-top: 25px;
+}
+.carta p{
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px;
+    margin-top: 5px;
+}
